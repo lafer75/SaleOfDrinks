@@ -17,7 +17,7 @@ public class Main {
         while (true) {
             System.out.println("Что желаете: ");
 
-            System.out.println(Arrays.deepToString(Drinks.values()));//список напитков
+            System.out.println(Arrays.deepToString(Drinks.values()));
 
             Drinks drink = userInput(Drinks::valueOf);
 
